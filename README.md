@@ -7,6 +7,8 @@
     - [How to run using docker compose](#how-to-run-using-docker-compose)
 - [API Documentation](#api-documentation)
 
+Deployed on Digital Ocean Server: https://book-management.meanii.dev/books
+
 # How to run
 
 There are two ways to run this project
@@ -53,9 +55,15 @@ docker compose up
 ## Books
 
 ### Get all books
+default limit is 10, you can change it by adding `limit` query parameter
 ```http
 GET /books
 ```
+
+```http
+GET /books?limit=20&page=2
+```
+
 
 ### Get book by id
 ```http

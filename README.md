@@ -9,6 +9,8 @@
 
 Deployed on Digital Ocean Server: https://book-management.meanii.dev/books
 
+Demo Video: https://www.youtube.com/watch?v=IKx0A9xu6TE
+
 # How to run
 
 There are two ways to run this project

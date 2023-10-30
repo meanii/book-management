@@ -90,3 +90,6 @@ PUT /books/:id
 ```http
 DELETE /books/:id
 ```
+
+# License
+[The Unlicense](https://github.com/meanii/book-management/blob/main/LICENSE)

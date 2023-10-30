@@ -145,7 +145,7 @@ sudo apt install nginx
 5. Configure Nginx
 use ./nginx.conf as a template
 ```bash
-sudo nano /etc/nginx/sites-available/book-management.conf
+sudo vim /etc/nginx/sites-available/book-management.conf
 ```
 
 6. Enable Nginx config

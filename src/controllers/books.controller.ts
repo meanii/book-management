@@ -15,14 +15,13 @@ export class BooksController {
             .limit(limit * 1)
             .skip((page - 1) * limit)
             .sort({ createdAt: -1 })
-            .populate(`author`);
             
         return ResponseUtil.success(res, books);
     }
 
     static async getBook(req: Request<{ id: string }>, res: Response): Promise<void> {
         const { id } = req.params;
-        const book = await BookModel.findById(id).populate(`author`);
+        const book = await BookModel.findById(id);
 
         /* validating if book exits or not */
         if (!book) return ResponseUtil.error(res, `Book not found!`, 404);

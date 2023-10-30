@@ -129,9 +129,12 @@ git clone https://github.com/meanii/book-management && cd book-management
 docker compose up -d
 ```
 
-useful docker commands:
+useful docker and docker compose commands:
 ```bash
 docker ps # show running containers
+docker ps -a # show all containers
+docker compose ps # show running containers using docker compose
+docker compose logs --follow --tail 100 # show logs of all containers using docker compose
 docker logs <container-id> # show logs of a container
 docker exec -it <container-id> bash # enter a container
 ```

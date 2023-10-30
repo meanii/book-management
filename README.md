@@ -10,8 +10,8 @@
 # How to run
 
 There are two ways to run this project
-1. [legacy way](#legacy-way)
-2. [using docker compose](#using-docker-compose)
+1. [legacy way](#how-to-run-legacy-way)
+2. [using docker compose](#how-to-run-using-docker-compose)
 
 ### How to run legacy way
 You need to have nodejs and mongodb installed on your machine
